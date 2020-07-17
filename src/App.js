@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React,{useState} from 'react';
 import Frase from './components/Frase'
 import styled from '@emotion/styled';
@@ -20,6 +21,10 @@ const Boton = styled.button`
   font-size: 2rem;
   border: 2px solid black;
 `;
+=======
+import React from 'react';
+
+>>>>>>> cd457b60d140274b6279ed81f8736a03deeaf2e1
 
 function App() {
 
@@ -33,6 +38,7 @@ function App() {
   }
 
   return (
+<<<<<<< HEAD
     <Contenedor>
         <Frase
           frase ={frase}
@@ -43,6 +49,9 @@ function App() {
       Obtener Frase
     </Boton>
     </Contenedor>
+=======
+    <h1>App de frases de BreakingBad</h1>
+>>>>>>> cd457b60d140274b6279ed81f8736a03deeaf2e1
   );
 }
 
