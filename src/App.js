@@ -1,30 +1,32 @@
-<<<<<<< HEAD
+
 import React,{useState} from 'react';
 import Frase from './components/Frase'
 import styled from '@emotion/styled';
 
 const Contenedor = styled.div`
-    display:flex;
-    align-items: center;
-    padding-top: 5rem;
-    flex-direction: column;
-`;
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+  flex-direction: column;
+` ;
 
 
 const Boton = styled.button`
-  background: -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%,#0f574e 100%);
-  background-size:300px;
-  font-family: Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
+  background-size: 300px;
+  font-family:  Arial, Helvetica, sans-serif;
   color: #fff;
   margin-top: 3rem;
   padding: 1rem 3rem;
   font-size: 2rem;
   border: 2px solid black;
-`;
-=======
-import React from 'react';
+  transition: background-size .8s ease;
 
->>>>>>> cd457b60d140274b6279ed81f8736a03deeaf2e1
+  :hover {
+    cursor:pointer;
+    background-size: 400px;
+  }
+`;
 
 function App() {
 
@@ -38,7 +40,7 @@ function App() {
   }
 
   return (
-<<<<<<< HEAD
+
     <Contenedor>
         <Frase
           frase ={frase}
@@ -49,9 +51,7 @@ function App() {
       Obtener Frase
     </Boton>
     </Contenedor>
-=======
-    <h1>App de frases de BreakingBad</h1>
->>>>>>> cd457b60d140274b6279ed81f8736a03deeaf2e1
+
   );
 }
 
